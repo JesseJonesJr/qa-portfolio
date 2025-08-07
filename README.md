@@ -38,8 +38,6 @@ My projects demonstrate practical skills in test planning, documentation, API te
 
 ## Tools & Technologies
 
-## Tools & Technologies
-
 | Area              | Tools |
 |-------------------|-------|
 | Manual Testing     | Google Docs, Sheets, Android Emulator |
