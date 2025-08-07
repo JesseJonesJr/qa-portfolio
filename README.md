@@ -49,7 +49,7 @@ My projects demonstrate practical skills in test planning, documentation, API te
 | Collaboration      | Slack, Shortcut (project management) |
 
 
----
+----
 
 ## Disclaimer
 
