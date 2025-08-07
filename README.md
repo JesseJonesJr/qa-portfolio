@@ -1,41 +1,52 @@
 # QA Portfolio – Jesse Jones
 
-## 🔍 Overview
+## Overview
 
-This portfolio showcases my QA documentation, testing cycles, and bug reports based on real-world mobile app projects.  
-My work includes manual testing, test case writing, bug reporting, exploratory testing, and regression planning.
-
-## 📁 Projects
-
-### 📱 ClientX – Educational Mobile App
-- 🔹 5 modules tested (Auth, Missions, Rewards, etc.)
-- 🔹 48+ test cases written and executed
-- 🔹 13+ bugs logged and documented
-- 🔹 QA Summary Reports, Bug Tracker, and Retest Logs included
-
-📂 [ClientX QA Folder (Google Drive)](https://-) 
+This portfolio showcases my end-to-end QA work including manual testing, bug reporting, and API automation.  
+My projects demonstrate practical skills in test planning, documentation, API testing, and UI automation.
 
 ---
 
-## 🧪 Current Learning
+## Projects
 
-- ✔ API Testing (Postman)
-- ✔ Cypress & Playwright for UI automation
-- ✔ JavaScript for automation scripting
+### ClientX – Educational Mobile App (Manual QA)
+- Tested 5 core modules (Auth, Missions, Rewards, etc.)
+- Wrote and executed 48+ test cases
+- Logged and tracked 13+ verified bugs
+- Created QA Summary Reports, Bug Tracker, and Retest Logs
 
----
-
-## 🧰 Tools Used
-
-- Google Docs & Sheets  
-- Android Emulator  
-- Postman  
-- Cypress (WIP)  
-- Selenium (Python)  
-- GitHub (for portfolio)
+📂 [ClientX QA Folder (Google Drive)](https://-)
 
 ---
 
-## 🛡️ Disclaimer
+### Reqres API Testing – API Automation with Postman
+- Built a complete Postman collection with 5 API test cases
+- Covered endpoints for GET, POST, PUT, and login token handling
+- Wrote JavaScript assertions for status codes, data, and performance
+- Documented test cases and exported collection for review
 
-All data and branding have been sanitized. This portfolio contains no confidential or proprietary client information and is shared for educational and professional purposes only.
+📂 [GitHub Repo – Reqres API Testing](https://github.com/JesseJonesJr/reqres-api-testing)
+
+---
+
+## Current Focus
+
+- UI Automation with Cypress or Playwright (in progress)
+- JavaScript & TypeScript for automation scripting
+
+---
+
+## Tools & Technologies
+
+| Area | Tools |
+|------|-------|
+| Manual Testing | Google Docs, Sheets, Android Emulator |
+| API Testing | Postman, REST APIs, JSON |
+| Automation | Cypress (in progress), Selenium (Python), Playwright (next) |
+| Version Control | Git, GitHub |
+
+---
+
+## Disclaimer
+
+All projects are educational and publicly shareable. Sensitive or proprietary client information has been removed or anonymized. This portfolio is for demonstration purposes only.
