@@ -38,12 +38,16 @@ My projects demonstrate practical skills in test planning, documentation, API te
 
 ## Tools & Technologies
 
-| Area | Tools |
-|------|-------|
-| Manual Testing | Google Docs, Sheets, Android Emulator |
-| API Testing | Postman, REST APIs, JSON |
-| Automation | Cypress (in progress), Selenium (Python), Playwright (next) |
-| Version Control | Git, GitHub |
+## Tools & Technologies
+
+| Area              | Tools |
+|-------------------|-------|
+| Manual Testing     | Google Docs, Sheets, Android Emulator |
+| API Testing        | Postman, REST APIs, JSON |
+| Automation         | Cypress (in progress), Selenium (Python), Playwright (next) |
+| Version Control    | Git, GitHub |
+| Collaboration      | Slack, Shortcut (project management) |
+
 
 ---
 
