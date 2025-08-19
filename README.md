@@ -1,38 +1,45 @@
 # QA Portfolio – Jesse Jones
 
 ## Overview
-
-This portfolio showcases my end-to-end QA work including manual testing, bug reporting, and API automation.  
-My projects demonstrate practical skills in test planning, documentation, API testing, and UI automation.
+This portfolio showcases my end-to-end QA work across **manual testing, API testing, and UI automation**.  
+Projects demonstrate **hands-on skills** in test planning, structured documentation, bug reporting, and end-to-end automation scripting.
 
 ---
 
 ## Projects
 
-### ClientX – Educational Mobile App (Manual QA)
+### ClientX – Manual QA (Mobile App)
 - Tested 5 core modules (Auth, Missions, Rewards, etc.)
-- Wrote and executed 48+ test cases
+- Wrote and executed 48+ detailed test cases
 - Logged and tracked 13+ verified bugs
-- Created QA Summary Reports, Bug Tracker, and Retest Logs
+- Created QA Summary Reports, Bug Tracker, and Retest Logs  
 
 📂 [ClientX QA Folder (Google Drive)](https://-)
 
 ---
 
-### Reqres API Testing – API Automation with Postman
-- Built a complete Postman collection with 5 API test cases
-- Covered endpoints for GET, POST, PUT, and login token handling
-- Wrote JavaScript assertions for status codes, data, and performance
-- Documented test cases and exported collection for review
+### Reqres API – API Testing (Postman)
+- Built a Postman collection with 5 API test cases
+- Covered GET, POST, PUT, and login token handling
+- Wrote JavaScript assertions for status codes, data validation, and performance
+- Documented test cases and exported Postman collection  
 
 📂 [GitHub Repo – Reqres API Testing](https://github.com/JesseJonesJr/reqres-api-testing)
 
 ---
 
-## Current Focus
+### SauceDemo – UI Automation (Cypress)
+- Automated login, negative login, logout, and checkout flows
+- Implemented end-to-end scenarios using Cypress (JavaScript)
+- Demonstrated real-world UI regression coverage  
 
-- UI Automation with Cypress or Playwright (in progress)
-- JavaScript & TypeScript for automation scripting
+📂 [GitHub Repo – Cypress Web Automation](https://github.com/JesseJonesJr/cypress-web-automation)
+
+---
+
+## Current Focus
+- Expanding automation skills with **Playwright** (next target)  
+- Strengthening **JavaScript & TypeScript** foundations for advanced automation scripting  
 
 ---
 
@@ -42,13 +49,13 @@ My projects demonstrate practical skills in test planning, documentation, API te
 |-------------------|-------|
 | Manual Testing     | Google Docs, Sheets, Android Emulator |
 | API Testing        | Postman, REST APIs, JSON |
-| Automation         | Cypress (in progress), Selenium (Python), Playwright (next) |
+| Automation         | Cypress, Selenium, Playwright (next) |
+| Programming        | JavaScript, TypeScript (learning), Python |
 | Version Control    | Git, GitHub |
 | Collaboration      | Slack, Shortcut (project management) |
 
-
-----
+---
 
 ## Disclaimer
-
-All projects are educational and publicly shareable. Sensitive or proprietary client information has been removed or anonymized. This portfolio is for demonstration purposes only.
+All projects are self-directed or educational. No confidential or proprietary data is included.  
+This portfolio is intended solely for professional demonstration purposes.
