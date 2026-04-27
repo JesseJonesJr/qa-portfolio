@@ -37,6 +37,17 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 
 ---
 
+### Client Project A — Auth UI Testing (Playwright)
+
+- Wrote comprehensive test plan covering 50 test cases across 5 auth flows
+- Automated 15+ end-to-end tests using Playwright and TypeScript
+- Documented bugs with severity classification and reproduction steps
+- Tested responsive design across 3 viewports and multiple browsers
+
+📂 [GitHub Repo — Playwright Auth Testing](https://github.com/JesseJonesJr/playwright-auth-testing)
+
+---
+
 ## Current Focus
 - Expanding automation skills with **Playwright** (next target)  
 - Strengthening **JavaScript & TypeScript** foundations for advanced automation scripting  
@@ -49,8 +60,8 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 |-------------------|-------|
 | Manual Testing     | Google Docs, Sheets, Android Emulator |
 | API Testing        | Postman, REST APIs, JSON |
-| Automation         | Cypress, Selenium, Playwright (next) |
-| Programming        | JavaScript, TypeScript (learning), Python |
+| Automation         | Cypress, Selenium, Playwright  |
+| Programming        | JavaScript, TypeScript, Python |
 | Version Control    | Git, GitHub |
 | Collaboration      | Slack, Shortcut (project management) |
 
