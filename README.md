@@ -10,11 +10,11 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 
 ### ClientX – Manual QA (Mobile App)
 - Tested 5 core modules (Auth, Missions, Rewards, etc.)
-- Wrote and executed 48+ detailed test cases
+- Wrote and executed 67 test cases
 - Logged and tracked 13+ verified bugs
 - Created QA Summary Reports, Bug Tracker, and Retest Logs  
 
-📂 [ClientX QA Folder (Google Drive)](https://-)
+📂 [ClientX QA Folder (Google Drive)](https://drive.google.com/drive/folders/1qdKL7kS79GJMTSaMlBhZtVdd6hHPJNbe?usp=sharing)
 
 ---
 
