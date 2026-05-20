@@ -36,35 +36,36 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 📂 [GitHub Repo – Cypress Web Automation](https://github.com/JesseJonesJr/cypress-web-automation)
 
 ---
+### Client Project A – Auth UI Testing (Playwright + CI/CD)
 
-### Client Project A — Auth UI Testing (Playwright)
-
-* Wrote comprehensive test plan covering 50 test cases across 5 authentication flows
-* Automated 36 end-to-end tests using Playwright and TypeScript
-* Achieved 72/72 pass rate across Chromium and Firefox
-* Tested multi-step flows including OTP verification, password reset, and country detection
-* Identified 2 bugs during test planning phase before writing any code
+* Wrote a 50-case test plan spanning 5 authentication flows, identifying 2 bugs during the planning phase before writing any code
+* Automated 36 end-to-end tests in Playwright + TypeScript, achieving 72/72 pass rate across Chromium and Firefox
+* Validated multi-step flows including OTP verification, password reset, and country auto-detection
+* Configured GitHub Actions CI/CD: clones the private application repo, boots its Next.js dev server, runs the suite on every PR and push to main, uploads HTML reports and raw failure artifacts (screenshots, videos, traces)
+* CI exposed a real "works on my machine" drift on its first run, demonstrating the value of testing against actual deployable code
 
 📂 [GitHub Repo – Playwright Auth Testing](https://github.com/JesseJonesJr/playwright-auth-testing)
 
 ---
 
 ## Current Focus
-* Building automation suites for production applications with **Playwright**
 * Combining **QA engineering** with **frontend development** and **UI/UX design**
+* Expanding into **Docker** for containerized QA environments
+* Building test coverage for the **financial domain** (payment validation, transaction accuracy, currency handling, compliance)
 
 ---
 
 ## Tools & Technologies
 
-| Area              | Tools |
-|-------------------|-------|
-| Manual Testing     | Google Docs, Sheets, Android Emulator |
-| API Testing        | Postman, REST APIs, JSON |
-| Automation         | Cypress, Selenium, Playwright  |
-| Programming        | JavaScript, TypeScript, Python |
-| Version Control    | Git, GitHub |
-| Collaboration      | Slack, Shortcut (project management) |
+| Area | Tools |
+| --- | --- |
+| Manual Testing | Google Docs, Sheets, Android Emulator |
+| API Testing | Postman, REST APIs, JSON |
+| Automation | Playwright, Cypress, Selenium |
+| CI/CD | GitHub Actions |
+| Programming | JavaScript, TypeScript, Python |
+| Version Control | Git, GitHub |
+| Collaboration | Slack, Shortcut |
 
 ---
 
