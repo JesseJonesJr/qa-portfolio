@@ -1,12 +1,25 @@
 # QA Portfolio – Jesse Jones
 
 ## Overview
-This portfolio showcases my end-to-end QA work across **manual testing, API testing, and UI automation**.  
+This portfolio showcases end-to-end QA work across **manual testing, API testing, UI automation, and CI/CD pipeline engineering**.  
 Projects demonstrate **hands-on skills** in test planning, structured documentation, bug reporting, and end-to-end automation scripting.
 
 ---
 
 ## Projects
+
+### Client Project A – Auth UI Testing (Playwright + CI/CD)
+[![Playwright Tests](https://github.com/JesseJonesJr/playwright-auth-testing/actions/workflows/playwright.yml/badge.svg)](https://github.com/JesseJonesJr/playwright-auth-testing/actions/workflows/playwright.yml)
+
+* Wrote a 50-case test plan spanning 5 authentication flows, identifying 2 bugs during the planning phase before writing any code
+* Automated 36 end-to-end tests in Playwright + TypeScript, achieving 72/72 pass rate across Chromium and Firefox
+* Validated multi-step flows including OTP verification, password reset, and country auto-detection
+* Configured GitHub Actions CI/CD: clones the private application repo, boots its Next.js dev server, runs the suite on every PR and push to main, uploads HTML reports and raw failure artifacts (screenshots, videos, traces)
+* CI exposed a real "works on my machine" drift on its first run, demonstrating the value of testing against actual deployable code
+
+📂 [GitHub Repo – Playwright Auth Testing](https://github.com/JesseJonesJr/playwright-auth-testing)
+
+---
 
 ### ClientX – Manual QA (Mobile App)
 - Tested 5 core modules (Auth, Missions, Rewards, etc.)
@@ -28,23 +41,17 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 
 ---
 
+
+
+## Early Automation Practice
+
 ### SauceDemo – UI Automation (Cypress)
-- Automated login, negative login, logout, and checkout flows
-- Implemented end-to-end scenarios using Cypress (JavaScript)
-- Demonstrated real-world UI regression coverage  
+
+* Automated login, negative login, logout, and checkout flows
+* Implemented end-to-end scenarios using Cypress (JavaScript)
+* Demonstrated foundational UI regression coverage on a public demo site
 
 📂 [GitHub Repo – Cypress Web Automation](https://github.com/JesseJonesJr/cypress-web-automation)
-
----
-### Client Project A – Auth UI Testing (Playwright + CI/CD)
-
-* Wrote a 50-case test plan spanning 5 authentication flows, identifying 2 bugs during the planning phase before writing any code
-* Automated 36 end-to-end tests in Playwright + TypeScript, achieving 72/72 pass rate across Chromium and Firefox
-* Validated multi-step flows including OTP verification, password reset, and country auto-detection
-* Configured GitHub Actions CI/CD: clones the private application repo, boots its Next.js dev server, runs the suite on every PR and push to main, uploads HTML reports and raw failure artifacts (screenshots, videos, traces)
-* CI exposed a real "works on my machine" drift on its first run, demonstrating the value of testing against actual deployable code
-
-📂 [GitHub Repo – Playwright Auth Testing](https://github.com/JesseJonesJr/playwright-auth-testing)
 
 ---
 
@@ -69,6 +76,11 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 
 ---
 
-## Disclaimer
-All projects are self-directed or educational. No confidential or proprietary data is included.  
-This portfolio is intended solely for professional demonstration purposes.
+## Contact
+
+- GitHub: [@JesseJonesJr](https://github.com/JesseJonesJr)
+
+---
+
+## About
+Built and maintained by Jesse Jones, a frontend developer and QA engineer.
