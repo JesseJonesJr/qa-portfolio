@@ -8,14 +8,16 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 
 ## Projects
 
-### Client Project A – Auth UI Testing (Playwright + CI/CD)
+### Client Project A – Auth UI Testing (Playwright + CI/CD + Docker)
+
 [![Playwright Tests](https://github.com/JesseJonesJr/playwright-auth-testing/actions/workflows/playwright.yml/badge.svg)](https://github.com/JesseJonesJr/playwright-auth-testing/actions/workflows/playwright.yml)
 
 * Wrote a 50-case test plan spanning 5 authentication flows, identifying 2 bugs during the planning phase before writing any code
 * Automated 36 end-to-end tests in Playwright + TypeScript, achieving 72/72 pass rate across Chromium and Firefox
 * Validated multi-step flows including OTP verification, password reset, and country auto-detection
-* Configured GitHub Actions CI/CD: clones the private application repo, boots its Next.js dev server, runs the suite on every PR and push to main, uploads HTML reports and raw failure artifacts (screenshots, videos, traces)
+* Configured GitHub Actions CI/CD that runs the Playwright suite inside Microsoft's official Playwright Docker container, with the private application repo cloned, built, and started on every PR and push to main; uploads HTML reports and raw failure artifacts (screenshots, videos, traces)
 * CI exposed a real "works on my machine" drift on its first run, demonstrating the value of testing against actual deployable code
+* Measured caching optimizations in CI and made data-driven decisions: kept npm caching, removed Docker image caching after measuring it provided no benefit for pre-built images from a CDN
 
 📂 [GitHub Repo – Playwright Auth Testing](https://github.com/JesseJonesJr/playwright-auth-testing)
 
@@ -56,10 +58,9 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 ---
 
 ## Current Focus
-* Combining **QA engineering** with **frontend development** and **UI/UX design**
-* Expanding into **Docker** for containerized QA environments
-* Building test coverage for the **financial domain** (payment validation, transaction accuracy, currency handling, compliance)
 
+* Combining **QA engineering** with **frontend development** and **UI/UX design**
+* Building test coverage for the **financial domain** (payment validation, transaction accuracy, currency handling, compliance)
 ---
 
 ## Tools & Technologies
