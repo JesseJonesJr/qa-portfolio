@@ -1,12 +1,30 @@
 # QA Portfolio – Jesse Jones
 
 ## Overview
-This portfolio showcases end-to-end QA work across **manual testing, API testing, UI automation, and CI/CD pipeline engineering**.  
-Projects demonstrate **hands-on skills** in test planning, structured documentation, bug reporting, and end-to-end automation scripting.
+
+This portfolio showcases end-to-end QA work across **manual testing, API testing, UI automation, CI/CD pipeline engineering, and FinTech test plan design**.  
+Projects demonstrate **hands-on skills** in test planning, structured documentation, bug reporting, end-to-end automation scripting, and regulated-systems thinking.
 
 ---
 
 ## Projects
+
+### Mobile Money Platform – Test Plan (FinTech)
+
+An 84-case test plan for a fictional mobile money platform covering KYC, authentication, money movement, agent network flows, cross-border FX, and compliance. Designed to demonstrate FinTech QA depth:
+
+* Money math precision, idempotency on network retries, atomic concurrency
+* AML, sanctions, and PEP screening compliance
+* Hash-chained audit ledgers with tamper-evidence verification
+* Transparent FX margin disclosure (Wise-style)
+* Agent commission accounting with banker's rounding and idempotent end-of-day settlement
+* Race-condition tests for daily limit aggregation and structuring patterns
+
+The plan draws on patterns from Wise, Stripe, GhIPSS, and major mobile money operators in Africa and Asia. Applicable to mobile money platforms, African and global FinTech, neobanks, remittance providers, and any platform handling regulated money flows.
+
+📂 [GitHub Repo – Mobile Money Test Plan](https://github.com/JesseJonesJr/mobile-money-test-plan)
+
+---
 
 ### Client Project A – Auth UI Testing (Playwright + CI/CD + Docker)
 
@@ -24,6 +42,7 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 ---
 
 ### ClientX – Manual QA (Mobile App)
+
 - Tested 5 core modules (Auth, Missions, Rewards, etc.)
 - Wrote and executed 67 test cases
 - Logged and tracked 13+ verified bugs
@@ -34,6 +53,7 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 ---
 
 ### Reqres API – API Testing (Postman)
+
 - Built a Postman collection with 5 API test cases
 - Covered GET, POST, PUT, and login token handling
 - Wrote JavaScript assertions for status codes, data validation, and performance
@@ -42,8 +62,6 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 📂 [GitHub Repo – Reqres API Testing](https://github.com/JesseJonesJr/reqres-api-testing)
 
 ---
-
-
 
 ## Early Automation Practice
 
@@ -61,6 +79,7 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 
 * Combining **QA engineering** with **frontend development** and **UI/UX design**
 * Building test coverage for the **financial domain** (payment validation, transaction accuracy, currency handling, compliance)
+
 ---
 
 ## Tools & Technologies
@@ -70,7 +89,7 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 | Manual Testing | Google Docs, Sheets, Android Emulator |
 | API Testing | Postman, REST APIs, JSON |
 | Automation | Playwright, Cypress, Selenium |
-| CI/CD | GitHub Actions |
+| CI/CD | GitHub Actions, Docker |
 | Programming | JavaScript, TypeScript, Python |
 | Version Control | Git, GitHub |
 | Collaboration | Slack, Shortcut |
@@ -84,4 +103,5 @@ Projects demonstrate **hands-on skills** in test planning, structured documentat
 ---
 
 ## About
+
 Built and maintained by Jesse Jones, a frontend developer and QA engineer.
