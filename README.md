@@ -77,8 +77,8 @@ The plan draws on patterns from Wise, Stripe, GhIPSS, and major mobile money ope
 
 ## Current Focus
 
-* Combining **QA engineering** with **frontend development** and **UI/UX design**
-* Building test coverage for the **financial domain** (payment validation, transaction accuracy, currency handling, compliance)
+* Test automation and CI/CD: building and owning Playwright suites in Dockerized pipelines
+* FinTech and regulated-systems QA: payment validation, transaction accuracy, currency handling, compliance
 
 ---
 
