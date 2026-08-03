@@ -26,10 +26,11 @@ The plan draws on patterns from Wise, Stripe, GhIPSS, and major mobile money ope
 
 ---
 
-### Client Project A – Auth UI Testing (Playwright + CI/CD + Docker)
+## Auth Platform (own build) – Playwright + CI/CD + Docker
 
 [![Playwright Tests](https://github.com/JesseJonesJr/playwright-auth-testing/actions/workflows/playwright.yml/badge.svg)](https://github.com/JesseJonesJr/playwright-auth-testing/actions/workflows/playwright.yml)
 
+* Built both the application and its full test suite; the app began as an internal Forgestack product
 * Wrote a 50-case test plan spanning 5 authentication flows, identifying 2 bugs during the planning phase before writing any code
 * Automated 36 end-to-end tests in Playwright + TypeScript, achieving 72/72 pass rate across Chromium and Firefox
 * Validated multi-step flows including OTP verification, password reset, and country auto-detection
