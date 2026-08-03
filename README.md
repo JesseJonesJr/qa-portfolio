@@ -99,6 +99,7 @@ The plan draws on patterns from Wise, Stripe, GhIPSS, and major mobile money ope
 ## Contact
 
 - GitHub: [@JesseJonesJr](https://github.com/JesseJonesJr)
+- LinkedIn: [@JesseJones](www.linkedin.com/in/jesse-jones-6b2841279)
 
 ---
 
